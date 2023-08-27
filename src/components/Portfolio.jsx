@@ -28,10 +28,10 @@ const Portfolio = () => {
       src: bmi,
       link2: "https://github.com/SahiruLakshan/bmi_calculator"
     },
-    // {
-    //   id: 4,
-    //   src: reactSmooth,
-    // },
+    {
+      id: 4,
+      src: reactSmooth,
+    },
     // {
     //   id: 5,
     //   src: installNode,
