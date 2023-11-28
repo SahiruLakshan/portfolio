@@ -7,6 +7,7 @@ import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 import uiux from "../assets/portfolio/uiux.jpg"
 import bmi from "../assets/portfolio/bmi.jpg"
+import bookstore from "../assets/portfolio/bookstore.jpg"
 import { Link } from "react-scroll";
 
 
@@ -18,20 +19,25 @@ const Portfolio = () => {
       link1: "https://www.linkedin.com/posts/sahiru-lakshan-3b36541b2_laravel-ecommerce-webdesign-activity-7033659822386360320-t4wB?utm_source=share&utm_medium=member_desktop",
       link2: "https://github.com/SahiruLakshan/E-Commerce-site/tree/master"
     },
+    // {
+    //   id: 2,
+    //   src: uiux,
+    //   link1: "https://www.behance.net/ahiruakshan",
+      
+    // },
+
     {
       id: 2,
-      src: uiux,
-      link1: "https://www.behance.net/ahiruakshan"
+      src: bookstore,
+      link2: "https://github.com/SahiruLakshan/bmi_calculator"
     },
     {
       id: 3,
       src: bmi,
       link2: "https://github.com/SahiruLakshan/bmi_calculator"
     },
-    // {
-    //   id: 4,
-    //   src: reactSmooth,
-    // },
+    
+    
     // {
     //   id: 5,
     //   src: installNode,
@@ -45,7 +51,7 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+      className="bg-gradient-to-b py-80 pb-96 from-black to-gray-800 w-full text-white md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">

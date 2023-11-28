@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroImage from "../assets/heroimage.jpeg";
+import person from "../assets/person.jpg";
 import {MdOutlineKeyboardArrowRight} from "react-icons/md";
 import {Link} from "react-scroll";
 const Home = () => {
@@ -7,10 +7,9 @@ const Home = () => {
     <div name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'>
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
             <div className='flex flex-col justify-center h-full'>
-                <h4 className='text-4xl sm:text-7xl font-bold text-white'>I'm a Full Stack Developer and UI/UX Designer </h4>
+                <h4 className='text-4xl sm:text-7xl font-bold text-white'>I'm a Web Developer and UI/UX Designer </h4>
                 <p className='text-gray-400 py-4 max-w-md'>
-                    I have 2 years of experience developing Web Applications and Mobile Apps.
-                    Currently, I love to work on web application using React,Laravel,Express Js and Mobile App developing using Flutter and React Native.
+                I'm a passionate Web Developer and UI/UX Designer dedicated to creating engaging and user-centric digital experiences. With a strong foundation in both development and design, I bring a unique blend of skills that allows me to bridge the gap between aesthetics and functionality.
                 </p>
 
                 <div>
@@ -26,7 +25,7 @@ const Home = () => {
             </div>
 
             <div>
-                <img src={HeroImage} alt="my dp" className='rounded-2xl mx-auto w-2/3 md:w-full' />
+                <img src={person} alt="my dp" className='rounded-2xl mx-auto w-2/3 md:w-full' />
             </div>
         </div>
     </div>

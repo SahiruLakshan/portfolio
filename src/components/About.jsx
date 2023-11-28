@@ -13,15 +13,13 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-20">
-          I am a web developer, mobile app developer, and UI/UX designer with
-          over 5 years of experience. I have a strong understanding of the
+          I have a strong understanding of the
           entire web development process, from ideation to deployment. I am
-          proficient in HTML, CSS, JavaScript, React, Node.js, and other web
-          development technologies. I am also experienced in mobile app
-          development, using platforms such as Flutter, React Native, and Ionic.
-          In addition, I have a strong understanding of UI/UX design principles
+          proficient in HTML, CSS, JavaScript, Laravel, Node.js, and other web
+          development technologies. I have a strong understanding of UI/UX design principles
           and practices. I am able to create user-friendly and visually
-          appealing interfaces that meet the needs of users.
+          appealing interfaces that meet the needs of users.I have basic knowledge in mobile app
+          development, using platforms such as Flutter and React Native..
         </p>
         <br />
         <p className="text-xl">

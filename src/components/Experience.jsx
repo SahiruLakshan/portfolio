@@ -17,6 +17,7 @@ import bootstrap from "../assets/bootstrap.png";
 import postman from "../assets/postman.png";
 import figma from "../assets/figma.png";
 import xd from "../assets/xd.png";
+import nodejs from "../assets/nodejs.png"
 
 const Experience = () => {
   const techs = [
@@ -28,79 +29,85 @@ const Experience = () => {
     },
     {
       id: 2,
+      src: nodejs,
+      title: "Node JS",
+      style: "shadow-green-600",
+    },
+    {
+      id: 3,
       src: express,
       title: "Express JS",
       style: "shadow-white",
     },
     {
-      id: 3,
+      id: 4,
       src: laravel,
       title: "Laravel",
       style: "shadow-red-500",
     },
     {
-      id: 4,
+      id: 5,
       src: flutter,
       title: "Flutter",
       style: "shadow-blue-600",
     },
     {
-      id: 5,
+      id: 6,
       src: reactImage,
       title: "React Native",
       style: "shadow-blue-600",
       
     },
     {
-      id: 6,
+      id: 7,
       src: mongo,
       title: "Mongo DB",
       style: "shadow-green-400",
     },
     {
-      id: 7,
+      id: 8,
       src: sql,
       title: "My SQL",
       style: "shadow-purple-400",
     },
     {
-      id: 8,
+      id: 9,
       src: firebase,
       title: "Firebase",
       style: "shadow-orange-400",
     },
     {
-      id: 9,
+      id: 10,
       src: bootstrap,
       title: "Bootstrap",
       style: "shadow-blue-300",
     },
     {
-      id: 10,
+      id: 11,
       src: tailwind,
       title: "Tailwind CSS",
       style: "shadow-sky-500",
     },
     {
-      id: 11,
+      id: 12,
       src: postman,
       title: "Postman",
       style: "shadow-red-400",
     },
     {
-      id: 12,
+      id: 13,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
     },
     {
-      id: 13,
+      id: 14,
       src: figma,
       title: "Figma",
       style: "shadow-gray-400",
     },
     {
-      id: 14,
+      id: 15,
       src: xd,
       title: "XD",
       style: "shadow-purple-600",
@@ -110,7 +117,7 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b pt-72 from-gray-800 to-black w-full h-screen"
+      className="bg-gradient-to-b pb-32 pt-80 from-gray-800 to-black w-full h-screen"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>

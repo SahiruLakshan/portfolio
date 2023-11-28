@@ -35,7 +35,7 @@ const NavBar = () => {
       {" "}
       {/* px-left and right side padding / py-top and bottom*/}
       <div>
-        <h1 className="text-5xl font-signature ml-2">Sahiru</h1>
+        <h1 className="text-5xl font-signature ml-2">Sahiru Lakshan</h1>
       </div>
       <ul className="hidden md:flex">
         {links.map(({ id, link }) => (
