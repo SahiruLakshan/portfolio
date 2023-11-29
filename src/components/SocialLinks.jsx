@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaFacebook, FaBehance } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -30,10 +30,10 @@ const SocialLinks = () => {
       id: 3,
       child: (
         <>
-          Facebook <FaFacebook size={30} />
+          Behance <FaBehance size={30} />
         </>
       ),
-      href: "https://www.facebook.com/sahiru.lakshan.940",
+      href: "https://www.behance.net/ahiruakshan",
       style: "rounded-br-md",
     },
   ];

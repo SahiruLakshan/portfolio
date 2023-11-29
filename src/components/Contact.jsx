@@ -1,7 +1,8 @@
 //Contact
 
 import React from "react";
-import { FaWhatsapp } from "react-icons/fa";
+import { FaMailBulk, FaMailchimp, FaWhatsapp } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 const Contact = () => {
   return (
@@ -18,7 +19,11 @@ const Contact = () => {
           <div>
             <div className="w-full grid grid-cols-4 lg:grid-cols-3 gap-8 py-8 px-12 sm:px-8">
               <FaWhatsapp size={30} />
-              :0766216791
+              : 0766216791
+            </div>
+            <div className="w-full grid grid-cols-4 lg:grid-cols-3 gap-8 py-8 px-12 sm:px-8">
+              <MdEmail size={30}/>
+              : sahiru906@gmail.com
             </div>
           </div>
         </div>
